@@ -174,7 +174,7 @@ span:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: hsl(178, 100%, 50%);
+    background-color: hsla(178, 100%, 50%, 0.582);
     /* دي الخلفية الجديدة */
     opacity: 0;
     /* مخفي افتراضياً */
@@ -187,7 +187,8 @@ span:hover {
 
 /* تظهر لما تحوم على الصورة */
 .img:hover .hover {
-    opacity: 0.5;
+    opacity: 1;
+    cursor: pointer;
     /* او 1 لو عايز الخلفية قوية */
 }
 
